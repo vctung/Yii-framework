@@ -1,0 +1,37 @@
+/*-----------------------------| THEME STYLE |-------------------------------
+ Project 		: MeSure - Profesional vCard, Resume, CV, & Portofolio
+ Author 		: Mias Marthinus
+----------------------------------------------------------------------------
+ Copyright (c) 2015 - MiasStudio 
+--------------------------------------------------------------------------*/
+
+/* ACCENT COLOR =================================================== */
+
+#social-media-link span:hover,
+#blog-header-title,
+#title-name,
+#main-menu .menu-active,
+#main-menu .menu:hover,
+.blog-side-title,
+.contact-detail-value,
+.award-title,
+.page-title,
+.page-sub-title,
+.timeline-title,
+.blog-item-cat,
+.accent-text{ color:#ff5722 !important; }
+
+body, 
+#menu-toggle,
+#loading,
+.button-icon,
+.button,
+.portofolio-item,
+.accent-bg{ background-color:#ff5722; }
+
+.ps-scrollbar-y{ background-color:#ff5722 !important; }
+
+#main-menu .menu-active { border-bottom-color:#ff5722; }
+
+#menu-toggle{ border-color:#ff5722; }
+

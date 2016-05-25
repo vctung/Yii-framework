@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<!-- ================================| INDEX |==============================
+ Project 		: MeSure - Profesional vCard, Resume, CV, & Portofolio
+ Author 		: Mias Marthinus
+ Version		: 1.0.0
+ Last Update	: 15/10/2015
+============================================================================
+ Copyright (c) 2015 - MiasStudio 
+======================================================================== -->
+
+<html lang="en">
+
+<!-- Mirrored from demo.miasstudio.com/mesure/more.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 May 2016 13:38:38 GMT -->
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!-- Change with your title  -->
+<title>MeSure | HTML Template</title>
+<!-- Icon link: replace image directly in folder: engine/img/favicon.ico -->
+<link rel="icon" type="image/ico" href="engine/img/favicon.ico" />
+
+<!-- CSS =========================================================================================================== -->
+<!-- google fonts | http://google.com/fonts -->
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto%20Slab%3A400%7CLato%3A700italic">
+<!-- font awesome | https://fortawesome.github.io/Font-Awesome/icons/ -->
+<link type="text/css" rel="stylesheet" href="engine/css/font-awesome.min.css" />
+<!-- miasstudio -->
+<link type="text/css" rel="stylesheet" href="engine/css/miasstudio.min.css" />
+<style type="text/css">
+	body{
+		overflow-x:hidden;
+		font-family:"Roboto Slab", sans-serif;
+		opacity:0;
+		
+		-webkit-transition:opacity 1s;
+		-o-transition:opacity 1s;
+		transition:opacity 1s;
+		
+		-webkit-transition-timing-function: ease-in-out;
+		transition-timing-function: ease-in-out;
+	}
+	h1, h2, h3, h4, h5, h6, #get-button{
+		/* Lato */
+		font-family:"Lato", sans-serif;
+		font-weight:700 !important;
+	}
+	
+	img{
+		max-width:100%;
+	}
+	
+	a{text-decoration:none;}
+	
+	#header{
+		color:#333;
+		background-attachment:fixed;
+		background-size:cover;
+		background-position:center bottom;
+		background-repeat:no-repeat;
+		background-image:url("../../i1204.photobucket.com/albums/bb409/miasstudio/bg_zpsypzuxbmz.jpg");
+	}
+	#header,
+	.slides{
+		height:30vw;
+	}
+	.slides-pos{
+		padding:0vw 30vw 0vw 10vw;
+	}
+	#header .ec-nav{
+		left:0px;
+		padding:0vw 2vw;
+		font-size:1vw;
+		line-height:1vw;
+	}
+	.ec-nav div{
+		margin:0.5vw 0vw;
+	}
+	#header .icon{
+		font-size:5vw;
+		line-height:7.5vw;
+	}
+	#header h1{
+		font-size:3vw;
+		line-height:5.25vw;
+	}
+	#header p{
+		font-size:1.5vw;
+		line-height:2.25vw;
+	}
+	#wrapper{
+		color:#999;
+		background-color:white;
+		text-align:center;
+	}
+	#wrapper h2{
+		font-size:3vw;
+		line-height:5.25vw;
+		margin-bottom:8vw;
+	}
+	#wrapper img{
+		margin:2vw 1vw;
+		cursor:pointer;
+		
+		-webkit-transition:opacity 0.5s;
+		-o-transition:opacity 0.5s;
+		transition:opacity 0.5s;
+		
+		-webkit-transition-timing-function: ease-in-out;
+		transition-timing-function: ease-in-out;
+	}
+	#wrapper img:hover{
+		opacity:0.5;
+	}
+	#footer{
+		font-size:1.3vw;
+		line-height:1.3vw;
+		color:#ccc;
+		background-color:#fff;
+		text-align:center;
+		padding:2vw 0vw;
+	}
+	#button-container{
+		text-align:center;
+		padding:8vw 2vw;
+	}
+	#get-button{
+		background-color:red;
+		padding:1vw 2vw;
+		font-size:3vw;
+		line-height:3vw;
+		color:#fff;
+		word-spacing:0.5vw;
+	}
+	
+</style>
+<!-- /CSS ================================================================================================================ -->
+
+<!-- Javascript ================================================================================================================ -->
+<!-- jQuery -->
+<script type="text/javascript" src="engine/js/jquery-2.1.4.min.js"></script>
+<!-- easyCall -->
+<script type="text/javascript" src="engine/js/easycall.3.3.0.min.js"></script>
+<script type="text/javascript">
+	$(window).load(function(){
+		$('body').css({
+			'opacity' : '1'
+		})
+	})
+</script>
+<!-- /Javascript ================================================================================================================ -->
+</head>
+<body>
+
+<!-- HEADER ================================================================================================================== -->
+<div id="header" class="ms-full-x">
+	<div class="ms-full ms-alpha-light-hard">
+		<div class="ec-slideshow ec-animation-slideFade ec-speed-slow ec-delay-slow">
+		
+			<div class="ec-nav ec-center-y">
+				<div class="ec-trigger-click ec-target-page-1 ec-animation-slideFade"><span class="fa fa-circle"></span></div>
+				<div class="ec-trigger-click ec-target-page-2 ec-animation-slideFade"><span class="fa fa-circle"></span></div>
+				<div class="ec-trigger-click ec-target-page-3 ec-animation-slideFade"><span class="fa fa-circle"></span></div>
+			</div>
+		
+			<!-- slide 1 ..................... -->
+			<div class="slides">
+				<div class="ec-center-y slides-pos">
+					<h1>Ultimate Professional V-Card</h1>
+					<p>
+						<strong>MeSure</strong> is ULTIMATE V-Card, resume, and portofolio HTML 5 template. 
+						BUY NOW, apply it to Your website, WOW your client, and MAKE MORE MONEY.
+					</p>
+				</div>
+			</div>
+			
+			<!-- slide 2 ..................... -->
+			<div class="slides">
+				<div class="ec-center-y slides-pos">
+					<h1>20+ Layout and Color</h1>
+					<p>
+						The main files included more than 20 Layout and Color ( Included Bonus Color ).
+						BUY NOW, and make Yourself outstanding.
+					</p>
+				</div>
+			</div>
+			
+			<!-- slide 3 ..................... -->
+			<div class="slides">
+				<div class="ec-center-y slides-pos">
+					<h1>Well Structure & Solid Coding</h1>
+					<p>
+						Create with valid HTML 5 markup and solid Javascript, made <strong>Me Sure</strong> THE BEST CHOISE for You.
+						BUY NOW and BE A PRO!
+					</p>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+<div id="footer">
+	<span class="fa fa-copyright"></span> 2015 - Mias Studio
+</div>
+
+<!-- WRAPPER : This is main panel ============================================================================================ -->
+<div id="wrapper">
+	<p>
+		<a href="layout_7.html" target="_blank"><img src="../../i1204.photobucket.com/albums/bb409/miasstudio/demo_zpspq2rvyto.jpg" alt="layout new" /></a>
+	</p>
+	<hr />
+	
+	<a href="index-2.html" target="_blank"><img src="../../i1204.photobucket.com/albums/bb409/miasstudio/layout_1_zpsowefgtih.jpg" alt="layout 1" /></a>
+	<a href="layout_5.html" target="_blank"><img src="../../i1204.photobucket.com/albums/bb409/miasstudio/layout_5_zpsj9vxwzqh.png" alt="layout 5" /></a>
+	<a href="layout_2.html" target="_blank"><img src="../../i1204.photobucket.com/albums/bb409/miasstudio/layout_2_zpshyflb91g.jpg" alt="layout 2" /></a>
+	<a href="layout_3.html" target="_blank"><img src="../../i1204.photobucket.com/albums/bb409/miasstudio/layout_3_zps6j8zenbi.jpg" alt="layout 3" /></a>
+	<a href="layout_6.html" target="_blank"><img src="../../i1204.photobucket.com/albums/bb409/miasstudio/layout_6_zpsqnzuyotu.jpg" alt="layout 6" /></a>
+	<a href="layout_4.html" target="_blank"><img src="../../i1204.photobucket.com/albums/bb409/miasstudio/layout_4_zpsprxlioyz.png" alt="layout 4" /></a>
+</div>
+<!-- /WRAPPER -->	
+
+<div id="button-container">
+	<a href="http://themeforest.net/item/me-sure-ultimate-personal-vcard-resume-portofolio/13541408?s_phrase=&amp;s_rank=3">
+		<span id="get-button" class="ms-hover">GET NOW !</span>
+	</a>
+</div>
+
+</body>	
+
+<!-- Mirrored from demo.miasstudio.com/mesure/more.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 May 2016 13:39:24 GMT -->
+</html>

@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+
+<!-- ================================| INDEX |==============================
+ Project 		: MeSure - Profesional vCard, Resume, CV, & Portofolio
+ Author 		: Mias Marthinus
+============================================================================
+ Copyright (c) 2015 - MiasStudio 
+======================================================================== -->
+
+<html lang="en">
+
+<!-- Mirrored from demo.miasstudio.com/mesure/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 May 2016 13:37:17 GMT -->
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!-- Change with your title  -->
+<title>MeSure | HTML Template</title>
+<!-- Icon link: replace image directly in folder: engine/img/favicon.ico -->
+<link rel="icon" type="image/ico" href="engine/img/favicon.ico" />
+
+<!-- CSS =========================================================================================================== -->
+<!-- google fonts | http://google.com/fonts -->
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto%20Slab%3A400%7CLato%3A700italic">
+<!-- font awesome | https://fortawesome.github.io/Font-Awesome/icons/ -->
+<link type="text/css" rel="stylesheet" href="engine/css/font-awesome.min.css" />
+<!-- font awesome | https://github.com/noraesae/perfect-scrollbar/-->
+<link type="text/css" rel="stylesheet" href="engine/css/perfect-scrollbar.min.css" />
+<!-- miasstudio -->
+<link type="text/css" rel="stylesheet" href="engine/css/miasstudio.min.css" />
+<!-- defaults style -->
+<link type="text/css" rel="stylesheet" href="engine/css/default.css" />
+<!-- customize : this file for you to customize -->
+<link type="text/css" rel="stylesheet" href="engine/css/customize_1.css" />
+<!-- theme color : change to your favorite theme color :
+		theme-blue
+		theme-blue-grey
+		theme-brown
+		theme-deep-orange
+		theme-deep-purple
+		theme-green
+		theme-indigo
+		theme-khaki
+		theme-pink
+		theme-purple
+		theme-red
+		theme-teal
+		theme-neutral
+		................................................
+		(*BONUS)
+		theme christmas
+-->
+<link type="text/css" rel="stylesheet" href="engine/css/00-theme-sea-buckthorn.css" />
+<!-- /CSS ================================================================================================================ -->
+
+</head>
+<body>
+
+<!-- LOADING PANEL oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+<div id="bg-filter" class="ms-full">
+	<div id="loading" class="ms-full">
+		<div id="loading-box-container">
+			<div id="loading-box-left"></div>
+			<div id="loading-box-right"></div>
+		</div>
+	</div>
+</div>
+<!-- /LOADING PANELoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+
+<!-- WRAPPER : This is main panel ============================================================================================ -->
+<div id="wrapper" class="ec-center w3-row">
+
+<!-- COVER SIDE : This is left panel ***************************************************************************************** -->
+<div id="cover-side" class="w3-col l5">
+	<!-- Easy Call page: create unlimited pages you want without writing down javascript -->
+	<div class="ec-page">
+		<!-- profile cover +++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<div id="profile-cover" class="cover-side-pages">
+			<div class="cover-filter">
+				<div class="cover-content-holder">
+				
+					<!-- the title : full name -->
+					<h1 id="title">
+						<span>I'm</span>
+						<span id="title-name">
+							<!-- Change with your name-->
+							Robert Doe
+						</span>
+					</h1>
+					
+					<!-- 
+						caption : 	
+						- change with description about you  
+						- every span you give, it mean how much the slides
+						
+						*note : this slideshow use EASY CALL features, just write down the classes
+					-->
+					<h5 id="title-caption" class="ec-slideshow ec-animation-slideFade ec-speed-slow ec-delay-fast">
+						<!-- slide 1 -->
+						<span>Graphic & Web Designer</span>
+						<span>Javascript Programmer</span>
+						<span>Available for Job</span>
+					</h5>
+					
+				</div>
+			</div>
+		</div>
+		<!-- resume cover +++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<div id="resume-cover" class="cover-side-pages"></div>
+		<!-- portofolio cover +++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<div id="portofolio-cover" class="cover-side-pages">
+			<div id="portofolio-filter"><img id="portofolio-preview" src="engine/img/placeholder.html" alt="preview portofolio" /></div>
+		</div>
+		<!-- blog cover +++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<div id="blog-cover" class="cover-side-pages"></div>
+		<!-- contact cover +++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<div id="contact-cover" class="cover-side-pages"></div>
+	</div>
+</div>
+<!-- /COVER SIDE -->
+
+<!-- CONTENT SIDE : This is CONTENT panel *************************************************************************************** -->
+<div id="content-side" class="w3-col l6">
+	<!-- Easy Call page: create unlimited pages you want without writing down javascript -->
+	<div class="ec-page">
+		<!-- profile page +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<div id="profile-page" class="content-side-pages perfect-scrollbar">
+			
+			<!-- contact detail -->
+			<ul id="contact-detail" class="w3-ul">
+				<!-- email ..................................................................................... -->
+				<li>
+					<!-- logo -->
+					<span class="fa fa-envelope"></span>
+					<!-- title -->
+					<span class="contact-detail-title">
+						Email:
+					</span>
+					<!-- value -->
+					<span class="contact-detail-value">
+						robert.doe@miasstudio.com
+					</span>
+				</li>
+				
+				<!-- telephone ..................................................................................... -->
+				<li>
+					<!-- logo -->
+					<span class="fa fa-phone"></span>
+					<!-- title -->
+					<span class="contact-detail-title">
+						Telephone:
+					</span>
+					<!-- value -->
+					<span class="contact-detail-value">
+						+62 82 334 878 123
+					</span>
+				</li>
+				
+				<!-- address ..................................................................................... -->
+				<li>
+					<!-- logo -->
+					<span class="fa fa-map-marker"></span>
+					<!-- title -->
+					<span class="contact-detail-title">
+						Address:
+					</span>
+					<!-- value -->
+					<span class="contact-detail-value">
+						True Way Street, Mars
+					</span>
+				</li>
+				
+			</ul><br />
+			
+			
+			<!-- change with your text -->
+			<p id="profile-detail">
+				Hi! My name is Robert William Doe.
+				I'm Graphic & Web Designer.
+				Come and knock my door, I'll be very happy to be Your partner, and let's make something great together!
+			</p>
+			
+			<!-- button -->
+			<div>
+				<!-- hire button -->
+				<div id="hire-button" class="w3-tag button">
+					<!-- icon -->
+					<span class="fa fa-suitcase"></span>
+					HIRE ME
+				</div>
+				<!-- download resume button : change the href to your file -->
+				<a href="#">
+					<div class="w3-tag button">
+						<!-- icon -->
+						<span class="fa fa-cloud-download"></span>
+						DOWNLOAD RESUME
+					</div>
+				</a>
+			</div>
+			
+			<!-- copyright -->
+			<p id="copyright" class="color-fully-dimmed">
+				Copyright
+				<span class="fa fa-copyright"></span>
+				2015 - MeSURE
+			</p>
+		</div>
+		<!-- /profile page -->
+		
+		<!-- resume page +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<div id="resume-page" class="content-side-pages perfect-scrollbar">
+			<!-- page title -->
+			<h2 class="page-title">Resume</h2>
+			<h5 class="page-caption">
+				<!-- change this with text about your resume  -->
+				These are my education and career Timeline, also my professional skills ..
+			</h5>
+			
+			<!-- timeline ############################################################################################## -->
+			<div class="section">
+				<!-- timeline 1 ************************************************************* -->
+				<div class="w3-row timeline">
+					<!-- left side -->
+					<div class="w3-col l4 timeline-date">
+						<!-- year start -->
+						<span class="timeline-date-year">2015</span> - 
+						<!-- year end -->
+						<span>Now</span>
+					</div>
+					<!-- right side -->
+					<div class="w3-col l8 timeline-detail">
+						<div class="timeline-pin">
+							<!-- EXPERIENCE LOGO ==================================== -->
+							<span class="fa fa-briefcase"></span>
+							<!-- ==================================================== -->
+						</div>
+						<!-- title -->
+						<h4 class="timeline-title"> 
+							<!-- change this with your job title -->
+							Envato - <small>Author</small>
+						</h4>
+						<!-- description -->
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+							Cras eros lorem, pretium ornare velit eu, luctus imperdiet nunc. 
+							Praesent venenatis nunc non mattis consequat. 
+							Donec lacinia libero in ligula ullamcorper ornare.
+						</p>
+					</div>
+				</div>
+				<!-- /timeline 1 -->
+				
+				<!-- timeline 2 ************************************************************* -->
+				<div class="w3-row timeline">
+					<!-- left side -->
+					<div class="w3-col l4 timeline-date">
+						<!-- year start -->
+						<span class="timeline-date-year">2013</span> - 
+						<!-- year end -->
+						<span>2015</span>
+					</div>
+					<!-- right side -->
+					<div class="w3-col l8 timeline-detail">
+						<div class="timeline-pin">
+							<!-- EXPERIENCE LOGO ==================================== -->
+							<span class="fa fa-briefcase"></span>
+							<!-- ==================================================== -->
+						</div>
+						<!-- title -->
+						<h4 class="timeline-title"> 
+							<!-- change this with your job title -->
+							Microsoft - <small>Enginer</small>
+						</h4>
+						<!-- description -->
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+							Cras eros lorem, pretium ornare velit eu, luctus imperdiet nunc. 
+							Praesent venenatis nunc non mattis consequat. 
+							Donec lacinia libero in ligula ullamcorper ornare.
+						</p>
+					</div>
+				</div>
+				<!-- /timeline 2 -->
+				
+				<!-- timeline 3 ************************************************************* -->
+				<div class="w3-row timeline">
+					<!-- left side -->
+					<div class="w3-col l4 timeline-date">
+						<!-- year start -->
+						<span class="timeline-date-year">2012</span> - 
+						<!-- year end -->
+						<span>2013</span>
+					</div>
+					<!-- right side -->
+					<div class="w3-col l8 timeline-detail">
+						<div class="timeline-pin">
+							<!-- EXPERIENCE LOGO ==================================== -->
+							<span class="fa fa-briefcase"></span>
+							<!-- ==================================================== -->
+						</div>
+						<!-- title -->
+						<h4 class="timeline-title"> 
+							<!-- change this with your job title -->
+							Google Inc - <small>Designer</small>
+						</h4>
+						<!-- description -->
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+							Cras eros lorem, pretium ornare velit eu, luctus imperdiet nunc. 
+							Praesent venenatis nunc non mattis consequat. 
+							Donec lacinia libero in ligula ullamcorper ornare.
+						</p>
+					</div>
+				</div>
+				<!-- /timeline 3 -->
+				
+				<!-- timeline 4 ************************************************************* -->
+				<div class="w3-row timeline">
+					<!-- left side -->
+					<div class="w3-col l4 timeline-date">
+						<!-- year start -->
+						<span class="timeline-date-year">2009</span> - 
+						<!-- year end -->
+						<span>2012</span>
+					</div>
+					<!-- right side -->
+					<div class="w3-col l8 timeline-detail">
+						<div class="timeline-pin">
+							<!-- EDUCATION LOGO ==================================== -->
+							<span class="fa fa-graduation-cap"></span>
+							<!-- ==================================================== -->
+						</div>
+						<!-- title -->
+						<h4 class="timeline-title"> 
+							<!-- change this with your job title -->
+							Oxford - <small>Master of Art</small>
+						</h4>
+						<!-- description -->
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+							Cras eros lorem, pretium ornare velit eu, luctus imperdiet nunc. 
+							Praesent venenatis nunc non mattis consequat. 
+							Donec lacinia libero in ligula ullamcorper ornare.
+						</p>
+					</div>
+				</div>
+				<!-- /timeline 4 -->
+				
+				<!-- timeline 5 ************************************************************* -->
+				<div class="w3-row timeline">
+					<!-- left side -->
+					<div class="w3-col l4 timeline-date">
+						<!-- year start -->
+						<span class="timeline-date-year">2008</span> - 
+						<!-- year end -->
+						<span>2009</span>
+					</div>
+					<!-- right side -->
+					<div class="w3-col l8 timeline-detail">
+						<div class="timeline-pin">
+							<!-- EDUCATION LOGO ==================================== -->
+							<span class="fa fa-graduation-cap"></span>
+							<!-- ==================================================== -->
+						</div>
+						<!-- title -->
+						<h4 class="timeline-title"> 
+							<!-- change this with your job title -->
+							Brawijaya - <small>Master of IT</small>
+						</h4>
+						<!-- description -->
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+							Cras eros lorem, pretium ornare velit eu, luctus imperdiet nunc. 
+							Praesent venenatis nunc non mattis consequat. 
+							Donec lacinia libero in ligula ullamcorper ornare.
+						</p>
+					</div>
+				</div>
+				<!-- /timeline 5 -->
+				
+				<!-- timeline last : your born day ************************************************************* -->
+				<div class="w3-row timeline timeline-end">
+					<!-- left side -->
+					<div class="w3-col l4 timeline-date">
+						<!-- year start -->
+						<span class="timeline-date-year">1994</span>
+					</div>
+					<!-- right side -->
+					<div class="w3-col l8 timeline-detail">
+						<div class="timeline-pin">
+							<!-- BORN DAY LOGO ==================================== -->
+							<span class="fa fa-birthday-cake"></span>
+							<!-- ==================================================== -->
+						</div>
+						<!-- title -->
+						<h4 class="timeline-title"> 
+							<!-- change this with your job title -->
+							I was born -
+							<!-- born date -->
+							<small>June 20, 1994</small>
+						</h4>
+						<!-- description -->
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+							Cras eros lorem, pretium ornare velit eu, luctus imperdiet nunc. 
+							Praesent venenatis nunc non mattis consequat. 
+							Donec lacinia libero in ligula ullamcorper ornare.
+						</p>
+					</div>
+				</div>
+				<!-- /timeline last -->
+			</div>
+			
+			<!-- skills ############################################################################################## -->
+			<div class="section">
+				<!-- subtitle : professional skills -->
+				<h3 class="page-sub-title">
+					PROFESSIONAL SKILLS
+				</h3>
+				
+				<!-- skills container -->
+				<div id="skill-container" class="w3-row">
+					<!-- skills coloum left .................................................................... -->
+					<div class="w3-col l8">
+						<!-- skill bar 1 ooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+						<div class="skill-box">
+							<h5 class="skill-title">
+								<!-- change the skill title -->
+								Javascript
+							</h5>
+							<!-- change the percent value -->
+							<div class="skill-bar"><div class="skill-bar-level" 
+							
+								style="width:90%;"
+							
+							><div class="skill-bar-point"></div></div></div>
+						</div>
+						<!-- /skill bar 1 -->
+						
+						<!-- skill bar 2 ooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+						<div class="skill-box">
+							<h5 class="skill-title">
+								<!-- change the skill title -->
+								HTML 5 & CSS 3
+							</h5>
+							<!-- change the percent value -->
+							<div class="skill-bar"><div class="skill-bar-level" 
+							
+								style="width:85%;"
+							
+							><div class="skill-bar-point"></div></div></div>
+						</div>
+						<!-- /skill bar 2 -->
+						
+						<!-- skill bar 3 ooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+						<div class="skill-box">
+							<h5 class="skill-title">
+								<!-- change the skill title -->
+								Photoshop
+							</h5>
+							<!-- change the percent value -->
+							<div class="skill-bar"><div class="skill-bar-level" 
+							
+								style="width:95%;"
+							
+							><div class="skill-bar-point"></div></div></div>
+						</div>
+						<!-- /skill bar 3 -->
+					</div>
+					<!-- /skill coloum left -->
+					
+					<!-- skills coloum right ................................................................... -->
+					<div class="w3-col l4">
+						<!-- skill list 1 oooooooooooooooooooooooooooooooooooooooooooooooooo -->
+						<h5 class="skill-list"><span class="fa fa-check skill-check"></span>
+							English - <span class="accent-text">Fluent</span>
+						</h5>
+						<!-- /skill list 1 -->
+						
+						<!-- skill list 2 oooooooooooooooooooooooooooooooooooooooooooooooooo -->
+						<h5 class="skill-list"><span class="fa fa-check skill-check"></span>
+							Chinese - <span class="accent-text">Basic</span>
+						</h5>
+						<!-- /skill list 2 -->
+						
+						<!-- skill list 3 oooooooooooooooooooooooooooooooooooooooooooooooooo -->
+						<h5 class="skill-list"><span class="fa fa-check skill-check"></span>
+							Japanese - <span class="accent-text">Conventional</span>
+						</h5>
+						<!-- /skill list 3 -->
+						
+						<!-- skill list 4 oooooooooooooooooooooooooooooooooooooooooooooooooo -->
+						<h5 class="skill-list"><span class="fa fa-check skill-check"></span>
+							Microsoft Excel
+						</h5>
+						<!-- /skill list 4 -->
+						
+						<!-- skill list 5 oooooooooooooooooooooooooooooooooooooooooooooooooo -->
+						<h5 class="skill-list"><span class="fa fa-check skill-check"></span>
+							logo design
+						</h5>
+						<!-- /skill list 5 -->
+						
+						<!-- skill list 6 oooooooooooooooooooooooooooooooooooooooooooooooooo -->
+						<h5 class="skill-list"><span class="fa fa-check skill-check"></span>
+							Digital Painting
+						</h5>
+						<!-- /skill list 6 -->
+						
+						<!-- skill list 7 oooooooooooooooooooooooooooooooooooooooooooooooooo -->
+						<h5 class="skill-list"><span class="fa fa-check skill-check"></span>
+							Photography
+						</h5>
+						<!-- /skill list 7 -->
+						
+					</div>
+					<!-- /skill coloum right -->
+				</div>
+			</div>
+			
+			<!-- award ############################################################################################## -->
+			<div id="award">
+				<!-- testimonial logo -->
+				<span id="award-logo" class="fa fa-trophy w3-tag w3-circle rotate-animation"></span>
+				<!-- slideshow -->
+				<div class="ec-slideshow ec-delay-normal ec-animation-slideFade">
+					<!-- navigation left -->
+					<div class="ec-nav ec-trigger-click ec-target-prevPage ec-animation-slideFade ms-hover" id="award-nav-left">
+						<span class="fa fa-angle-left"></span>
+					</div>
+					
+					<!-- navigation right -->
+					<div class="ec-nav ec-trigger-click ec-animation-slideFade ms-hover" id="award-nav-right">
+						<span class="fa fa-angle-right"></span>
+					</div>
+					
+					<!-- award 1 -->
+					<div>
+						<h4 class="award-title">
+							<!-- award title -->
+							Winner of Asia Young Programmer
+						</h4>
+						<h5 class="award-date">
+							<!-- date recieve -->
+							October 2015
+						</h5>
+						<!-- award detail -->
+						<p> 
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+							Cras eros lorem, pretium ornare velit eu, luctus imperdiet nunc. 
+							Praesent venenatis nunc non mattis consequat. 
+							Donec lacinia libero in ligula ullamcorper ornare.
+						</p>
+					</div>
+					<!-- /award 1 -->
+					
+					<!-- award 2 -->
+					<div>
+						<h4 class="award-title">
+							<!-- award title -->
+							Place 3 of Europe Blog Designer Award
+						</h4>
+						<h5 class="award-date">
+							<!-- date recieve -->
+							October 2010
+						</h5>
+						<!-- award detail -->
+						<p> 
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+							Cras eros lorem, pretium ornare velit eu, luctus imperdiet nunc. 
+							Praesent venenatis nunc non mattis consequat. 
+							Donec lacinia libero in ligula ullamcorper ornare.
+						</p>
+					</div>
+					<!-- /award 2 -->
+					
+					<!-- award 3 -->
+					<div>
+						<h4 class="award-title">
+							<!-- award title -->
+							Best New Freelance at Live Award
+						</h4>
+						<h5 class="award-date">
+							<!-- date recieve -->
+							October 2015
+						</h5>
+						<!-- award detail -->
+						<p> 
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+							Cras eros lorem, pretium ornare velit eu, luctus imperdiet nunc. 
+							Praesent venenatis nunc non mattis consequat. 
+							Donec lacinia libero in ligula ullamcorper ornare.
+						</p>
+					</div>
+					<!-- /award 3 -->
+					
+				</div>
+			</div>
+			
+			<!-- button ################################################################################################# -->
+			<div class="medium-break">
+				<!-- hire button -->
+				<div class="w3-tag button">
+					<!-- icon -->
+					<span class="fa fa-print"></span>
+					PRINT RESUME
+				</div>
+				<!-- download resume button : change the href to your file -->
+				<a href="#">
+					<div class="w3-tag button">
+						<!-- icon -->
+						<span class="fa fa-cloud-download"></span>
+						DOWNLOAD RESUME
+					</div>
+				</a>
+			</div>
+			
+		</div>
+		<!-- /resume page -->
+		
+		<!-- portofolio page +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<div id="portofolio-page" class="content-side-pages perfect-scrollbar">
+			<!-- page title -->
+			<h2 class="page-title">portofolio</h2>
+			<h5 class="page-caption">
+				<!-- change this with text about your text  -->
+				These are project that I've done in the past.
+			</h5>
+			<!-- portofolio button -->
+			<div id="portofolio-button">
+				<!--
+					*NOTE :
+						1. To synchronize the category just change the "CATEGORY" class same as the target item ( ex: category-design )
+						2. You can use more than one tag on portofolio item 
+				-->
+				<!-- category button all ...................................... -->
+				<div class="w3-tag button category-all button-active">ALL</div>
+				
+				<!-- category button 1 ..................................... -->
+				<div class="w3-tag button category-web">Web</div>
+				
+				<!-- category button 2 ..................................... -->
+				<div class="w3-tag button category-design">Design</div>
+				
+				<!-- category button 3 ..................................... -->
+				<div class="w3-tag button category-other">other</div>
+			</div>
+			
+			<hr />
+			<!-- portofolio container -->
+			<div id="portofolio-container" class="medium-break">
+			
+				<!-- item 1 -->
+				<div class="portofolio-item category-design" onclick="getPortofolioDetail();">
+					<!-- title -->
+					<h5 class="portofolio-title ec-center">Portofolio 1</h5>
+					<!-- images *NOTE: dont forget to give alt  -->
+					<img src="../../i1204.photobucket.com/albums/bb409/miasstudio/muffin_zpsgly4qgfx.jpg" alt="#" />
+				</div>
+				<!-- /item 1 -->
+				
+				<!-- item 2 -->
+				<div class="portofolio-item category-web" onclick="getPortofolioDetail();">
+					<!-- title -->
+					<h5 class="portofolio-title ec-center">Portofolio 2</h5>
+					<!-- images *NOTE: dont forget to give alt  -->
+					<img src="../../i1204.photobucket.com/albums/bb409/miasstudio/a97c4a1614b53d6f55ae2464b06ba6aa_zpsqnojqcyz.jpg" alt="#"/>
+				</div>
+				<!-- /item 2 -->
+				
+				<!-- item 3 -->
+				<div class="portofolio-item category-other" onclick="getPortofolioDetail();">
+					<!-- title -->
+					<h5 class="portofolio-title ec-center">Portofolio 3</h5>
+					<!-- images *NOTE: dont forget to give alt  -->
+					<img src="../../i1204.photobucket.com/albums/bb409/miasstudio/adsghaerearheth5e%2019_zpsrqf3hnvj.jpg" alt="#" />
+				</div>
+				<!-- /item 3 -->
+				
+				<!-- item 4 -->
+				<div class="portofolio-item category-web" onclick="getPortofolioDetail();">
+					<!-- title -->
+					<h5 class="portofolio-title ec-center">Portofolio 4</h5>
+					<!-- images *NOTE: dont forget to give alt  -->
+					<img src="../../i1204.photobucket.com/albums/bb409/miasstudio/red-love-heart-valentines_zpsc8cszae9.jpg" alt="#" />
+				</div>
+				<!-- /item 4 -->
+				
+				<!-- item 5 -->
+				<div class="portofolio-item category-web" onclick="getPortofolioDetail();">
+					<!-- title -->
+					<h5 class="portofolio-title ec-center">Portofolio 5</h5>
+					<!-- images *NOTE: dont forget to give alt  -->
+					<img src="../../i1204.photobucket.com/albums/bb409/miasstudio/painting-black-paint-roller_zpsaauvoia9.jpg" alt="#" />
+				</div>
+				<!-- /item 5 -->
+			</div>
+		</div>
+		<!-- /portofolio page -->
+		
+		<!-- blog page +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<div id="blog-page" class="content-side-pages perfect-scrollbar">
+			<!-- blog container -->
+			<div id="blog-container"></div>
+		</div>
+		<!-- /blog page -->
+		
+		<!-- contact page +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<div id="contact-page" class="content-side-pages perfect-scrollbar">
+			<!-- page title -->
+			<h2 class="page-title">contact</h2>
+			<h5 class="page-caption">
+				<!-- change this with text about your resume  -->
+				Sed porttitor nulla eget enim gravida blandit. Integer risus nunc, molestie a nibh in, interdum fringilla urna.
+			</h5>
+			
+			<!-- contact form -->
+			<div class="medium-break">
+				<h4 class="page-sub-title">Send Me a Message</h4>
+				<!-- name ...................................................................................... -->
+				<p>
+					<input class="frame input" id="contact-form-name" placeholder="Your Name" type="text" />
+				<!-- email ..................................................................................... -->
+					<input class="frame input" id="contact-form-email" placeholder="Your Email" type="text" />
+				<!-- message ................................................................................... -->
+					<textarea class="frame" cols="5" id="contact-form-message" placeholder="Your Message...."></textarea>
+				</p>
+				<!-- button send ............................................................................... -->
+				<div>
+					<!-- hire button -->
+					<div id="contact-form-submit" class="w3-tag button">
+						<!-- icon -->
+						<span class="fa fa-send"></span>
+						SEND
+					</div>
+					<span id="contact-form-response"></span>
+				</div>
+			</div>
+			
+		</div>
+		<!-- /contact page -->
+		
+		
+	<!-- ******************************************************************************************************
+		OTHER PAGES 
+	******************************************************************************************************* -->
+	
+		<!-- portofolio preview +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<div id="portofolio-preview-page" class="content-side-pages perfect-scrollbar"></div>
+		<!-- /portofolio preview -->
+	
+		<!-- menu preview +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<div id="sub-menu-page" class="content-side-pages perfect-scrollbar">
+			<!-- page title -->
+			<h2 class="page-title">Sub Menu</h2>
+			<h5 class="page-caption">
+				<!-- change this with text about your text  -->
+				Sed porttitor nulla eget enim gravida blandit. Integer risus nunc, molestie a nibh in, interdum fringilla urna.
+			</h5>
+			
+			<!-- external link -->
+			<ul class="w3-ul">
+				<li>
+					<a href="#" class="ms-hover">
+						<h3 class="page-sub-title">
+							<span class="fa fa-external-link"></span>
+							Themeforest
+						</h3>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="ms-hover">
+						<h3 class="page-sub-title">
+							<span class="fa fa-external-link"></span>
+							CodeCanyon
+						</h3>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="ms-hover">
+						<h3 class="page-sub-title">
+							<span class="fa fa-external-link"></span>
+							Photodune
+						</h3>
+					</a>
+				</li>
+			</ul>
+			
+			<!-- social media link -->
+			<div id="social-media-link" class="medium-break">
+				<!-- facebook -->
+				<a href="#" target="_blank"><span class="fa fa-facebook"></span></a>
+				<!-- twitter -->
+				<a href="#" target="_blank"><span class="fa fa-twitter"></span></a>
+				<!-- instagram -->
+				<a href="#" target="_blank"><span class="fa fa-instagram"></span></a>
+				<!-- google plus -->
+				<a href="#" target="_blank"><span class="fa fa-google-plus"></span></a>
+				<!-- youtube -->
+				<a href="#" target="_blank"><span class="fa fa-youtube"></span></a>
+				<!-- dribble -->
+				<a href="#" target="_blank"><span class="fa fa-dribbble"></span></a>
+				<!-- lindkedin -->
+				<a href="#" target="_blank"><span class="fa fa-linkedin"></span></a>
+				<!-- behance -->
+				<a href="#" target="_blank"><span class="fa fa-behance"></span></a>
+			</div>
+			
+		</div>
+		<!-- /menu preview -->
+	
+	</div>
+</div>
+<!-- /CONTENT SIDE -->
+
+<!-- MAIN MENU ************************************************************************************************************** -->
+<nav id="main-menu" class="w3-col l1">
+	<!-- menu toogle -->
+	<div id="menu-toggle"><span class="fa fa-bars"></span></div>
+	<!-- menu profile -->
+	<div id="menu-profile" class="menu menu-active"><span class="fa fa-user"></span></div>
+	<!-- menu resume -->
+	<div id="menu-resume" class="menu"><span class="fa fa-file"></span></div>
+	<!-- menu portofolio -->
+	<div id="menu-portofolio" class="menu"><span class="fa fa-briefcase"></span></div>
+	<!-- menu blog -->
+	<div id="menu-blog" class="menu"><span class="fa fa-newspaper-o"></span></div>
+	<!-- menu contact -->
+	<div id="menu-contact" class="menu"><span class="fa fa-phone"></span></div>
+</nav>
+<!-- /MAIN MENU -->
+
+</div>
+<!-- /WRAPPER -->	
+
+<!-- MORE DEMO BUTTON -->
+<a href="more.html">
+<div id="more-demo-button">
+	MORE DEMO
+</div>
+</a>
+
+<!-- JAVASCRIPT ================================================================================================================ -->
+<!-- jQuery -->
+<script type="text/javascript" src="engine/js/jquery-2.1.4.min.js"></script>
+<!-- easyCall -->
+<script type="text/javascript" src="engine/js/easycall.3.3.0.min.js"></script>
+<!-- google map  -->
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<!-- perfect scrollbar | https://github.com/noraesae/perfect-scrollbar/ -->
+<script type="text/javascript" src="engine/js/perfect-scrollbar.jquery.min.js"></script>
+<!-- default -->
+<script type="text/javascript" src="engine/js/default.js"></script>
+<!-- /JAVASCRIPT ================================================================================================================ -->
+
+</body>	
+
+<!-- Mirrored from demo.miasstudio.com/mesure/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 May 2016 13:37:46 GMT -->
+</html>

@@ -1,0 +1,29 @@
+/*-----------------------------| CUSTOMIZE STYLE |--------------------------
+ Project 		: MeSure - Profesional vCard, Resume, CV, & Portofolio
+ Author 		: Mias Marthinus
+----------------------------------------------------------------------------
+ Copyright (c) 2015 - MiasStudio 
+--------------------------------------------------------------------------*/
+
+@charset "utf-8";
+
+/*=============================================================================== 
+ LARGE SCREEN
+===============================================================================*/
+@media (min-width:993px){	
+	body{ background-image:url("../../../../i1204.photobucket.com/albums/bb409/miasstudio/bg_zpsyhu4t9qh.jpg"); }
+	
+}
+
+/* PROFILE COVER PICTURE */
+#profile-cover{ background-image:url("../../../../i1204.photobucket.com/albums/bb409/miasstudio/profile_zpssgcjamdv.jpg"); }
+
+/* RESUME COVER PICTURE */
+#resume-cover{ background-image:url("../../../../i1204.photobucket.com/albums/bb409/miasstudio/education_zpssyxoswsi.jpg"); }
+
+/* PORTOFOLIO COVER PICTURE */
+#portofolio-cover{ background-image:url("../../../../i1204.photobucket.com/albums/bb409/miasstudio/portofolio_zpsp7kbgao7.jpg"); }
+
+/* BLOG COVER PICTURE */
+#blog-cover{ background-image:url("../../../../i1204.photobucket.com/albums/bb409/miasstudio/blog_zpsqxpjbp5z.jpg"); }
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title></title>
+	    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/tabs.css" />
+		<link rel="stylesheet" type="text/css" href="css/tabstyles.css" />
+  		<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+
+			
+		<section>
+				<div class="tabs tabs-style-bar">
+					<nav>
+						<ul>
+							<li><a href="#section-bar-1" class="icon icon-home"><span>Home</span></a></li>
+							<li><a href="#section-bar-2" class="icon icon-box"><span>Archive</span></a></li>
+							<li><a href="#section-bar-3" class="icon icon-display"><span>Analytics</span></a></li>
+							<li><a href="#section-bar-4" class="icon icon-upload"><span>Upload</span></a></li>
+							<li><a href="#section-bar-5" class="icon icon-tools"><span>Settings</span></a></li>
+						</ul>
+					</nav>
+					<div class="content-wrap">
+						<section id="section-bar-1"><p>1AAAAAAAAAAAAA</p></section>
+						<section id="section-bar-2"><p>2AAAAAAAAAAAAAA</p></section>
+						<section id="section-bar-3"><p>3AAAAAAAAAA</p></section>
+						<section id="section-bar-4"><p>4AAAAAAAAAAAAAAAA</p></section>
+						<section id="section-bar-5"><p>5BBBBBBBBB</p></section>
+					</div><!-- /content -->
+				</div><!-- /tabs -->
+			</section>
+	
+	
+	    <script src="js/cbpFWTabs.js"></script>
+		<script>
+			(function() {
+
+				[].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+					new CBPFWTabs( el );
+				});
+
+			})();
+		</script>
+</body>
+</html>
